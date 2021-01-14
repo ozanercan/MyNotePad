@@ -1,6 +1,6 @@
 # MyNotePad
 
-Web projelerinde kullanmadığım ve yeni olduğum yapıları kullanmak için geliştirdiğim küçük not defteri projesi.
+Web platformunda kullanmaya yeni başladığım teknolojileri ve yapıları kullanmak için geliştirdiğim küçük not defteri projesi.
 
 -- Kullanılan Teknoloji / Yapılar --
 - .Net 5 Web Api ( En Sade Kullanımı )
