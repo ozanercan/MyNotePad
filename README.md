@@ -5,6 +5,8 @@ Web platformunda kullanmaya yeni başladığım teknolojileri ve yapıları kull
 -- Kullanılan Teknoloji / Yapılar --
 - .Net 5 Web Api ( En Sade Kullanımı )
 - .Net 5 MVC
+-- Bootstrap
+
 
 - Katmanlı Mimari
 - Sql Server Veritabanı Altyapısı
