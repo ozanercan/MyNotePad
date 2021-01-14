@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="bg-dark text-light vh-100">
+    <div class="container-fluid bg-dark vh-100">
+        @RenderBody()
+        <div class="row pb-2 mt-3 w-75 mx-auto">
+            <div class="col-6"><a class="btn btn-primary d-block" asp-action="Index" asp-controller="Note">Notlarım</a></div>
+            <div class="col-6"><a class="btn btn-secondary d-block" asp-action="Create" asp-controller="Note">Yeni Not</a></div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" type="text/javascript" charset="utf-8" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

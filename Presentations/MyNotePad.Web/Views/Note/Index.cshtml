@@ -1,0 +1,27 @@
+﻿@model NoteIndexViewModel
+@{
+    ViewData["Title"] = "Notlar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row vh-75">
+    <div class="col-12 col-md-2 p-0">
+        <div class="overflow-auto" style="max-height: 100vh;">
+            <ul class="list-group w-100 text-dark">
+                @foreach (var item in Model.NoteDtos)
+                {
+                    <li class="list-group-item">
+                        <a class="btn text-success text-decoration-none d-block p-0">@item.NoteTitle</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="col-12 col-md-10 mt-2 ps-0 ps-md-3 mt-md-0 px-0">
+        <textarea id="text" class="display-6 fs-4 w-100 vh-100"></textarea>
+    </div>
+</div>
+
+<script type="text/javascript">
+    let notes = @Html.Raw(ViewData["Notes"]);
+</script>

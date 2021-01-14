@@ -1,0 +1,26 @@
+﻿@model NoteCreateViewModel
+@{
+    ViewData["Title"] = "Yeni Not Oluştur";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    if (ViewBag.Alert != null)
+    {
+    <script charset="utf-8" type="text/javascript">
+            alert('@Html.Raw(ViewBag.Alert)');
+    </script>
+    }
+}
+<form class="row p-3 vh-100" asp-action="Create" asp-controller="Note" method="post">
+    <div class="col-12 text-center h-25">
+        <label class="display-6 fs-3 py-3">Not Başlığı</label>
+        <input type="text" class="form-control mt-3" asp-for="@Model.NoteCreateDto.NoteTitle" />
+    </div>
+    <div class="col-12 text-center h-50">
+        <label class="display-6 fs-3 py-3">Not İçeriği</label>
+        <textarea class="w-100 h-75" asp-for="@Model.NoteCreateDto.NoteContent"></textarea>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-success btn-lg mt-5 px-4 d-block mx-auto">Kayıt Et</button>
+    </div>
+</form>
