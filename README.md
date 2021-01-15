@@ -14,6 +14,9 @@ Web platformunda kullanmaya yeni başladığım teknolojileri ve yapıları kull
 - AutoFac
 - AutoMapper
 
+#Notlarım Sayfası
 ![Image of Yaktocat](https://raw.githubusercontent.com/ozanercan/MyNotePad/master/images/Index.JPG)
 
+
+#Yeni Not Ekleme Sayfaı
 ![Image of Yaktocat](https://raw.githubusercontent.com/ozanercan/MyNotePad/master/images/NoteCreate.JPG)
