@@ -13,3 +13,7 @@ Web platformunda kullanmaya yeni başladığım teknolojileri ve yapıları kull
 - Ef Core & Repository Pattern
 - AutoFac
 - AutoMapper
+
+![Image of Yaktocat](https://raw.githubusercontent.com/ozanercan/MyNotePad/master/images/Index.JPG)
+
+![Image of Yaktocat](https://raw.githubusercontent.com/ozanercan/MyNotePad/master/images/NoteCreate.JPG)
